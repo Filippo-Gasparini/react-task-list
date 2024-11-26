@@ -5,14 +5,14 @@
 function App() {
 
 const tasksLists = require('tasks.js')
-
+console.log(tasksLists)
 //const title = "tasks lists"
 
 function getListTasks() {
-  const item = []
+  const items = []
 
-tasksLists.forEach(('completed') => {
-  items.push(<li>{taskLists}</li>)
+tasksLists.forEach(('completed') {
+  items.push ({tasksLists})
 })
 
 
