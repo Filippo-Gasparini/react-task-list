@@ -6,11 +6,19 @@ function App() {
 
 const tasksLists = require('tasks.js')
 
-const title = "tasks lists"
+//const title = "tasks lists"
 
-  return (
-    <div>{tasksLists}</div>
-  )
+function getListTasks() {
+  const item = []
+
+tasksLists.forEach(('completed') => {
+  items.push(<li>{taskLists}</li>)
+})
+
+
+}
+
+  return items
 }
 
 export default App
