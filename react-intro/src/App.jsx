@@ -12,7 +12,7 @@ function getListTasks() {
   const items = []
 
 tasksLists.forEach(('completed') {
-  items.push ({tasksLists})
+  items.push(tasksLists)
 })
 
 
